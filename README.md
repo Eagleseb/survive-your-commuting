@@ -10,15 +10,18 @@ What about switzerland ? Or do we focus on UK ?
 Cities vs rural area ? (Uk, France)
 
 Confirm well-known statistics such as: correlation with weather, road conditions, alcool, light, hour etc.
-Fin new-suprising correlation 
-Comparison
+Find new-suprising correlation 
+Make comparisons
 
 Finally, come up with a set of directives to avoid accidents (specific to a country, a city etc.)
+
+Furthermore, we aim to draw a link between road policies and decrease in road mortality. Our hope is to reveal interesting policies that could be used abroad in countries where these measures were not implemented yet in order to improve road safety there.
 
 A 150 word description of the project idea, goals, dataset used. What story you would like to tell and why? What's the motivation behind your project)
 
 # Research questions
-A list of research questions you would like to address during the project. 
+- What are the major risk factors?
+- How could they be attenuated?
 
 # Dataset
 List the dataset(s) you want to use, and some ideas on how do you expect to get, manage, process and enrich it/them. Show us you've read the docs and some examples, and you've a clear idea on what to expect. Discuss data size and format if relevant.: 
@@ -31,7 +34,9 @@ Geneva (https://ge.ch/sitg/sitg_catalog/sitg_donnees?keyword=&geodataid=8139&top
 
 
 # A list of internal milestones up until project milestone 2
-Add here a sketch of your planning for the next project milestone.
+- load and clean one of the datasets.
+- draw some histograms of mortality given the weather or the time of the day... in order to detect the most obvisous correlations.
+- Find some interesting policies that were established during the collection of our datasets in order to compare mortality before and after the establishment of these policies.
 
 # Questions for TAa
 Add here some questions you have for us, in general or project-specific.
