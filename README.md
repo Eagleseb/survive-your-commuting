@@ -1,36 +1,40 @@
 # survive-your-commuting
-Change the title to survive on the road ?
 
 # Abstract
 
-Road safety is a major societal issue, resulting in at least one million deaths per year and can cost up 4% of a country's GNP. What's more, it is said to become the fifth leading cause of death by 2030 unless action is taken. The European Commission Fact sheet for the year 2017  shows how the United Kingdom appears to be a leader in road safety with 27 fatalities per millions of habitants while France stands slightly above average with 57 deaths per millions of habitants.
+Road safety is a major societal issue, resulting in at least one million deaths per year and can cost up to 4% of a country's GNP. What's more, it is said to become the fifth leading cause of death by 2030 unless action is taken. The European Commission Fact sheet for the year 2017  shows that the United Kingdom appears to be a leader in road safety with 27 fatalities per millions of habitants while France stands slightly above average with 57 deaths per millions of habitants, whereas France and  Uk appears to be practically similar in terms of economic growth and access to technology. 
 
-What about switzerland ? Or do we focus on UK ?
+A better road safety rhymes with improvement in social welfare, by decreasing the number of deaths due to car accidents for instance. Therefore, not only does it appears as a cause worth our attention, but it is also a topic related to abundant open data. Actually, several countries and/or cities are currently publishing anonymized data of every road accidents reported to their police. For instance, the United Kingdom provides their reports for the past 30 years, what can it tell about the implementation of road safety policies ? While it is well known that the majority of road accidents happens while commuting, we strongly believe there is much more to know about the circumstances and the reasons of road accidents. 
+Therefore, our goal is to extract information from the United Kingdom dataset to help us draw lessons from the millions of tragic stories behind this entries. By highlighting the consequences of the implementation of several policies related to road safety, we would like to provide directives to follow the model of the United Kingdom.
 
-Cities vs rural area ? (Uk, France)
+by comparing fce and uk we could provide directives to strive towards uk
+
+if city is interesting, we could focus on Paris, London and Geneva
 
 Confirm well-known statistics such as: correlation with weather, road conditions, alcool, light, hour etc.
 Find new-suprising correlation 
 Make comparisons
 
-Finally, come up with a set of directives to avoid accidents (specific to a country, a city etc.)
-
 Furthermore, we aim to draw a link between road policies and decrease in road mortality. Our hope is to reveal interesting policies that could be used abroad in countries where these measures were not implemented yet in order to improve road safety there.
+
 
 A 150 word description of the project idea, goals, dataset used. What story you would like to tell and why? What's the motivation behind your project)
 
 # Research questions
 - What are the major risk factors?
 - How could they be attenuated?
+- Is there any outliers ? (e.g "surprising figures")
 
 # Dataset
-List the dataset(s) you want to use, and some ideas on how do you expect to get, manage, process and enrich it/them. Show us you've read the docs and some examples, and you've a clear idea on what to expect. Discuss data size and format if relevant.: 
 
-GB (https://data.gov.uk/dataset/cb7ae6f0-4be6-4935-9277-47e5ce24a11f/road-safety-data)
+We found three datasets consistent with our goal, and we decided to use the one provided by the United Kingdom. The three of them have a great list of features but only UK provide data for different year.
 
-France (https://data.opendatasoft.com/explore/dataset/accidents-corporels-circulation-2015%40public/table/?location=8,46.53052,3.03223&basemap=mapbox.streets&dataChart=eyJxdWVyaWVzIjpbeyJjaGFydHMiOlt7InR5cGUiOiJsaW5lIiwiZnVuYyI6IkNPVU5UIiwieUF4aXMiOiJsYXJyb3V0Iiwic2NpZW50aWZpY0Rpc3BsYXkiOnRydWUsImNvbG9yIjoicmFuZ2UtY3VzdG9tIn1dLCJ4QXhpcyI6ImRhdGV0aW1lIiwibWF4cG9pbnRzIjoiIiwidGltZXNjYWxlIjoiZGF5Iiwic29ydCI6IiIsImNvbmZpZyI6eyJkYXRhc2V0IjoiYWNjaWRlbnRzLWNvcnBvcmVscy1jaXJjdWxhdGlvbi0yMDE1QHB1YmxpYyIsIm9wdGlvbnMiOnt9fSwic2VyaWVzQnJlYWtkb3duIjoiYXRtIn1dLCJkaXNwbGF5TGVnZW5kIjp0cnVlLCJhbGlnbk1vbnRoIjp0cnVlfQ%3D%3D)
+- **UK dataset:**  From year 1979 to current. Available at https://data.gov.uk/dataset/cb7ae6f0-4be6-4935-9277-47e5ce24a11f/road-safety-data
+- **France dataset:** Only 60.000 entries, for 2015. But help on the website. Available at https://data.opendatasoft.com/explore/dataset/accidents-corporels-circulation-2015%40public/
+- **Geneva dataset:** 22.000 entries for year 2015. Available at https://ge.ch/sitg/fiche/8139
 
-Geneva (https://ge.ch/sitg/sitg_catalog/sitg_donnees?keyword=&geodataid=8139&topic=tous&service=tous&datatype=tous&distribution=tous&sort=auto&fbclid=IwAR1Z9CoLqQwR6OzDhNp9OT-Gbk_S0BVQKpqFbWxxfXHhTKxkeI_tOmVDIWg)
+
+List the dataset(s) you want to use, and some ideas on how do you expect to get, manage, process and enrich it/them. Show us you've read the docs and some examples, and you've a clear idea on what to expect. Discuss data size and format if relevant.
 
 
 # A list of internal milestones up until project milestone 2
@@ -39,4 +43,3 @@ Geneva (https://ge.ch/sitg/sitg_catalog/sitg_donnees?keyword=&geodataid=8139&top
 - Find some interesting policies that were established during the collection of our datasets in order to compare mortality before and after the establishment of these policies.
 
 # Questions for TAa
-Add here some questions you have for us, in general or project-specific.
