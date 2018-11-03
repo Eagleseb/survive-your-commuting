@@ -1,29 +1,18 @@
 # survive-your-commuting
 
 # Abstract
+Road traffic safety is a major societal issue costing up to 4% of a country's GNP, while traffic crashs are said to become the fifth leading cause of death by 2030. The 2017 European Commission Fact sheet  shows how the United Kingdom is a leader in road safety with 27 fatalities per millions of habitants while France stands slightly above average with 57. 
+What’s more, the United Kingdom provides their traffic reports for the past 30 years, what can it tell about the implementation of road safety policies ? Can this data explain the gap between France and Uk ? While it is well known that the majority of road accidents happens while commuting, we strongly believe there is much more to know about the circumstances and the reasons of road accidents. 
+Therefore, our goal is to extract information from the UK dataset to highlight the consequences of the implementation of several policies related to road safety, enabling us to provide directives to follow the lead of the UK.
 
-Road safety is a major societal issue, resulting in at least one million deaths per year and can cost up to 4% of a country's GNP. What's more, it is said to become the fifth leading cause of death by 2030 unless action is taken. The European Commission Fact sheet for the year 2017  shows that the United Kingdom appears to be a leader in road safety with 27 fatalities per millions of habitants while France stands slightly above average with 57 deaths per millions of habitants, whereas France and  Uk appears to be practically similar in terms of economic growth and access to technology. 
-
-A better road safety rhymes with improvement in social welfare, by decreasing the number of deaths due to car accidents for instance. Therefore, not only does it appears as a cause worth our attention, but it is also a topic related to abundant open data. Actually, several countries and/or cities are currently publishing anonymized data of every road accidents reported to their police. For instance, the United Kingdom provides their reports for the past 30 years, what can it tell about the implementation of road safety policies ? While it is well known that the majority of road accidents happens while commuting, we strongly believe there is much more to know about the circumstances and the reasons of road accidents. 
-Therefore, our goal is to extract information from the United Kingdom dataset to help us draw lessons from the millions of tragic stories behind this entries. By highlighting the consequences of the implementation of several policies related to road safety, we would like to provide directives to follow the model of the United Kingdom.
-
-by comparing fce and uk we could provide directives to strive towards uk
-
-if city is interesting, we could focus on Paris, London and Geneva
-
-Confirm well-known statistics such as: correlation with weather, road conditions, alcool, light, hour etc.
-Find new-suprising correlation 
-Make comparisons
-
-Furthermore, we aim to draw a link between road policies and decrease in road mortality. Our hope is to reveal interesting policies that could be used abroad in countries where these measures were not implemented yet in order to improve road safety there.
-
+167 words
 
 A 150 word description of the project idea, goals, dataset used. What story you would like to tell and why? What's the motivation behind your project)
 
 # Research questions
-- What are the major risk factors?
+- What are the major risk factors? 
 - How could they be attenuated?
-- Is there any outliers ? (e.g "surprising figures")
+- To what extent is it more dangerous is urban areas ?
 
 # Dataset
 
@@ -38,8 +27,9 @@ List the dataset(s) you want to use, and some ideas on how do you expect to get,
 
 
 # A list of internal milestones up until project milestone 2
-- load and clean one of the datasets.
-- draw some histograms of mortality given the weather or the time of the day... in order to detect the most obvisous correlations.
-- Find some interesting policies that were established during the collection of our datasets in order to compare mortality before and after the establishment of these policies.
+- **Clean** the UK dataset for the past 10 years.
+- **Visualize** the data using plots and maps (_matplolib_ and _folium_) to get to know the data.
+- **Detect** correlations and trends between features such as the frequency, the weather the gravity etc. 
+- **Identify and quantify** the impact of several road safety related policies specific to the UK.
 
 # Questions for TAa
