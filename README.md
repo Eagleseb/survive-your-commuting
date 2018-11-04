@@ -6,11 +6,10 @@ What’s more, the United Kingdom provides their traffic reports for the past 30
 Therefore, our goal is to extract information from the UK dataset to highlight the consequences of the implementation of several policies related to road safety, enabling us to provide directives to follow the lead of the UK.
 
 # Research questions
-- What are the major risk factors? 
+- What are the major risk factors?
 - How could they be attenuated?
-- To what extent is it more dangerous in urban areas?
-- Can we predict the consequences of a car crash given its initial condition (speed, vehicles involved, type of road...)?
-- What policies implemented in our role model country, the UK, could be implemented in France in order to decrease death casualties there?
+- To what extent is it more dangerous in urban areas compared to rural ones?
+- Is it possible to determine which policies had the best impact on road safety?
 
 # Dataset
 
