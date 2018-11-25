@@ -26,3 +26,9 @@ For each year, the entries are divided in three datasets, one for the accident, 
 - **Visualize** the data using plots and maps (_matplolib_ and _folium_) to get to know the data.
 - **Detect** correlations and trends between features such as the frequency, the weather, the severity etc. 
 - **Identify and quantify** the impact of several road safety related policies specific to the UK 
+
+# A list of internal step for milestone 3
+- **Get** an idea of the baseline of traffic 
+- **Compare** with the conclusions of the official Government Reports
+- **Analyse** more deeply what the main consequences of accidents may be
+- **Visualize** these key features for the report
