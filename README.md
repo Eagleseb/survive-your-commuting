@@ -2,14 +2,14 @@
 
 # Abstract
 Road traffic safety is a major societal issue costing up to 4% of a country's GNP, while traffic crashes are said to become the fifth leading cause of death by 2030. The 2017 European Commission Fact sheet shows how the United Kingdom is a leader in road safety with 27 fatalities per millions of habitants while France stands slightly above average with 57. 
-What’s more, the United Kingdom provides their traffic reports for the past 30 years, what can it tell about the implementation of road safety policies ? Can this data explain the gap between France and the UK ? While it is well known that the majority of road accidents happens while commuting, we strongly believe there is much more to know about the circumstances and the reasons of road accidents. 
-Therefore, our goal is to extract information from the UK dataset to highlight the consequences of the implementation of several policies related to road safety, enabling us to provide directives to follow the lead of the UK.
+What’s more, the United Kingdom provides their traffic reports for the past 30 years, what can it tell about the implementation of road safety policies ? Can this data explain the gap between France and the UK ? While it is well known that the majority of road accidents happens while commuting, yet can the figures prove it ?
+Therefore, our goal is to extract information from the UK dataset to highlight put common road safety beliefs into perspectives whether it is about driving conditions or the likelihood of being a casualty.
 
 # Research questions
 - What are the major risk factors?
-- How could they be attenuated?
+- Who is more likely to be a casualty ?
 - To what extent is it more dangerous in urban areas compared to rural ones?
-- Is it possible to determine which policies had the best impact on road safety?
+- When and where is it safer to drive?
 
 # Dataset
 
@@ -27,8 +27,13 @@ For each year, the entries are divided in three datasets, one for the accident, 
 - **Detect** correlations and trends between features such as the frequency, the weather, the severity etc. 
 - **Identify and quantify** the impact of several road safety related policies specific to the UK 
 
-# A list of internal step for milestone 3
-- **Get** an idea of the baseline of traffic 
-- **Compare** with the conclusions of the official Government Reports
-- **Analyse** more deeply what the main consequences of accidents may be
-- **Visualize** these key features for the report
+# A list of internal milestones up until project milestone 3
+- **Characterize** road accidents and their casualties 
+- **Compare** with the conclusions of the official Government Reports (see links)
+- **Analyse** press article to extract a few "common beliefs"
+- **Assess** to what extent common beliefs are true, according to the data: fact checking
+
+Link to UK government reports : https://www.gov.uk/government/statistics/reported-road-casualties-great-britain-annual-report-2015?fbclid=IwAR3pGOaw-wCVJHvLYdKPJQ8bWmITUVCVZRVZ8xycxDIlqP5uOvoxXpra0Lg
+Some recent press articles about road safety:
+- https://www.theguardian.com/world/2018/nov/23/little-evidence-20mph-speed-limit-cuts-casualties-says-uk-report?fbclid=IwAR18ujDDTfoV-LRqQ_rkgVaZwrI4wspRmyoGDLPW9JxFda6j0TB94181L9o
+- https://www.forbes.com/sites/carltonreid/2018/11/21/uk-government-rolls-out-new-road-safety-measures-ignores-will-of-the-people/?fbclid=IwAR1et22jgFkddCAcVfzO2zb8xzTclekQOytvWBJ5NhIbgq2r_UbFIms05L4#51d9ae7457fa
