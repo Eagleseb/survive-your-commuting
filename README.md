@@ -2,8 +2,8 @@
 
 # Abstract
 Road traffic safety is a major societal issue costing up to 4% of a country's GNP, while traffic crashes are said to become the fifth leading cause of death by 2030. The 2017 European Commission Fact sheet shows how the United Kingdom is a leader in road safety with 27 fatalities per millions of habitants while France stands slightly above average with 57. 
-What’s more, the United Kingdom provides their traffic reports for the past 30 years, what can it tell about the implementation of road safety policies ? Can this data explain the gap between France and the UK ? While it is well known that the majority of road accidents happens while commuting, yet can the figures prove it ?
-Therefore, our goal is to extract information from the UK dataset to highlight put common road safety beliefs into perspectives whether it is about driving conditions or the likelihood of being a casualty.
+What’s more, the United Kingdom provides their traffic reports for the past 30 years, what can it tell about the implementation of road safety policies ? Can this data explain the gap between France and the UK ? While it is well known that the majority of road accidents happens while commuting, can the figures prove it ?
+Therefore, our goal is to extract information from the UK dataset to put common road safety beliefs into perspectives whether it is about driving conditions or the likelihood of being a casualty.
 
 # Research questions
 - What are the major risk factors?
@@ -34,6 +34,7 @@ For each year, the entries are divided in three datasets, one for the accident, 
 - **Assess** to what extent common beliefs are true, according to the data: fact checking
 
 Link to UK government reports : https://www.gov.uk/government/statistics/reported-road-casualties-great-britain-annual-report-2015?fbclid=IwAR3pGOaw-wCVJHvLYdKPJQ8bWmITUVCVZRVZ8xycxDIlqP5uOvoxXpra0Lg
+
 Some recent press articles about road safety:
 - https://www.theguardian.com/world/2018/nov/23/little-evidence-20mph-speed-limit-cuts-casualties-says-uk-report?fbclid=IwAR18ujDDTfoV-LRqQ_rkgVaZwrI4wspRmyoGDLPW9JxFda6j0TB94181L9o
 - https://www.forbes.com/sites/carltonreid/2018/11/21/uk-government-rolls-out-new-road-safety-measures-ignores-will-of-the-people/?fbclid=IwAR1et22jgFkddCAcVfzO2zb8xzTclekQOytvWBJ5NhIbgq2r_UbFIms05L4#51d9ae7457fa
