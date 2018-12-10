@@ -2,8 +2,8 @@
 
 # Abstract
 Road traffic safety is a major societal issue costing up to 4% of a country's GNP, while traffic crashes are said to become the fifth leading cause of death by 2030. The 2017 European Commission Fact sheet shows how the United Kingdom is a leader in road safety with 27 fatalities per millions of habitants while France stands slightly above average with 57. 
-What’s more, the United Kingdom provides their traffic reports for the past 30 years, what can it tell about the implementation of road safety policies ? Can this data explain the gap between France and the UK ? While it is well known that the majority of road accidents happens while commuting, yet can the figures prove it ?
-Therefore, our goal is to extract information from the UK dataset to highlight put common road safety beliefs into perspectives whether it is about driving conditions or the likelihood of being a casualty.
+What’s more, the United Kingdom provides their traffic reports for the past 30 years, what can it tell about the implementation of road safety policies ? Can this data explain the gap between France and the UK ? While it is well known that the majority of road accidents happens while commuting, can the figures prove it ?
+Therefore, our goal is to extract information from the UK dataset to put common road safety beliefs into perspectives whether it is about driving conditions or the likelihood of being a casualty.
 
 # Research questions
 - What are the major risk factors?
