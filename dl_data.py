@@ -96,7 +96,6 @@ def dl():
             index = files.index(doc)
             if index == 0:
                 df_list[index].append(pd.read_csv(file + doc, 
-                                                  index_col= "Accident_Index",
                                                   parse_dates=['Date'],
                                                   dayfirst=True,
                                                   infer_datetime_format=True,
