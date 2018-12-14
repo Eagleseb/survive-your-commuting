@@ -81,26 +81,31 @@
             The problem is we do not know how often the weather is bad and therefore we do not have any proper normalization.
             For that reason we plot the average number of casualties per accident given many different weather condition:
         </p>
-        <img src="/survive-your-commuting/img/casualties_per_weather.png" alt="">
+        <img src="./img/casualties_per_weather.png" alt="">
         <p>
             But that plot show that there isn’t much difference between different weathers.
             The second step was to find the most dangerous locations in the UK and to compute the
             frequencies of accidents when the weather is bad at these dangerous locations:
         </p>
-        <img src="/survive-your-commuting/img/weather_ratio.png" alt="">
+        <img src="./img/weather_ratio.png" alt="">
         <p>
             The plot show that there is mostly no difference across these different locations, telling us that they are not
             more dangerous when the weather is bad. However there is a clear outlier that merits further work.
             It corresponds to the location (51.498, -0.497) which we checked on Google Maps:
         </p>
         <div class="row no-gutters">
-            <div class="col-lg-6">
-                <img src="/survive-your-commuting/img/google_map_weather_1.png" alt="">
+            <div class="col-lg-6" style="padding-right: 10px">
+                <img width="100%" height="300px" src="./img/google_maps_weather_1.png" alt="">
             </div>
             <div class="col-lg-6">
-                <img src="/survive-your-commuting/img/google_map_weather_2.png" alt="">
+                <img width="100%" height="300px" src="./img/google_maps_weather_2.png" alt="">
             </div>
         </div>
+        <p>
+            And the funny thing is that we discovered that this location was indeed particularly dangerous and that
+            during bad weather it could be particularly difficult for a car on the right lane to be able to enter
+            the road… So, act up UK!
+        </p>
       </div>
     </section>
 
