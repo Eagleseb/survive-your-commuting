@@ -146,5 +146,6 @@ def dl():
     accidents = categorical_labels(accidents, LEGENDS)
     casualties = categorical_labels(casualties, LEGENDS)
     vehicules = categorical_labels(vehicules, LEGENDS)
+    print("Every files has been downloaded, clean and properly labeled")
     
     return accidents, casualties, vehicules
