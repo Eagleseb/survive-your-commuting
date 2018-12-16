@@ -48,7 +48,7 @@
                     traffic crashes are said to become the <b>fifth leading cause of death by 2030</b>. The 2017
                     European Commission Fact sheet shows how the United Kingdom is a leader in road safety with 27
                     fatalities per millions of habitants while France stands slightly above average with 57. What’s
-                    more, the United Kingdom provides their traffic reports from 2005 to 2015.. While it is well known
+                    more, the United Kingdom provides their traffic reports from 2005 to 2015. While it is well known
                     that the majority of road accidents happens while commuting, can the figures prove it ? Therefore,
                     our goal is to extract information from the UK dataset to put common road safety beliefs into
                     perspectives whether it is about driving conditions or the likelihood of being a casualty.
@@ -129,8 +129,8 @@
                         represent more than 10% of the casualties</b>, which is a very significant part as they can only
                     be impacted in specific circumstances in urban areas: they are almost always the victims rather than
                     the person causing the accident. Finally, casualties still mainly concern drivers and riders: people
-                    who are allegedly responsible to take every necessary precautions to avoid accidents. It could be
-                    explained in two ways: the high proportion of people taking their car alone, to commute for instance
+                    who are allegedly responsible for taking every possible steps in order to avoid accidents. It could be
+                    explained in two ways: the high proportion of people taking their car alone, to commute for instance,
                     and the increasing part of bike riders having road accidents.
                     <br>
                     Despite this context, the government has still taken no action to make wearing helmets compulsory
@@ -203,10 +203,10 @@
             </div>
             <div class="col-lg-10 mx-auto">
                 <p class="lead">
-                    Once the number of vehicles involved set aside, the two most significant features are the <b>type of
+                    Once we set aside the number of vehicles involved, the two most significant features are the <b>type of
                     the area</b> (i.e. whether it is urban or rural) and the type of the road. The correlation between
                     the number of casualties and these features was far above its correlation with the light conditions
-                    nor the weather which is almost negligible unlike what people usually think! That’s quite
+                    or the weather which are almost negligible unlike what people usually think! That’s quite
                     surprising, thus we decided to dig deeper to understand and maybe explain this cliché.
                 </p>
             </div>
@@ -221,11 +221,11 @@
                 <h2>On the impact of weather</h2>
                 <p class="lead">
                     The common knowledge says that driving when the weather is poor is more dangerous.
-                    Therefore, we tried to try to spot a difference in the number of accidents when the weather is poor
+                    Therefore, we tried to spot a difference in the number of accidents when the weather is poor
                     or not.
                     The problem is we do not know how often the weather is bad and therefore we do not have any proper
                     normalization.
-                    For that reason we plot the average number of casualties per accident given many different weather
+                    For that reason we plotted the average number of casualties per accident given many different weather
                     condition:
                 </p>
             </div>
@@ -234,7 +234,7 @@
             </div>
             <div class="col-lg-10 mx-auto">
                 <p class="lead">
-                    But that plot show that there isn’t much difference between different weathers.
+                    But that plot showed that there isn’t much difference between different weather conditions.
                     The second step was to find the most dangerous locations in the UK and to compute the
                     frequencies of accidents when the weather is bad at these dangerous locations:
                 </p>
@@ -242,7 +242,7 @@
             <div class="col-lg-5 mx-auto">
                 <img width="100%" src="./img/weather_ratio.png" alt="">
             </div>
-            <div class="col-lg-10 mt-3 mx-auto">
+            <div class="col-lg-10 mt-5 mb-5 mx-auto">
                 <p class="lead">
                     The plot show that there is mostly no difference across these different locations, telling us that
                     they are
@@ -259,7 +259,7 @@
                     <img width="100%" height="300px" src="./img/google_maps_weather_2.png" alt="">
                 </div>
             </div>
-            <div class="col-lg-10 mt-4 mx-auto">
+            <div class="col-lg-10 mt-5 mx-auto">
                 <p class="lead">
                     And the funny thing is that we discovered that this location was indeed particularly dangerous and
                     that
@@ -281,20 +281,20 @@
                     Every driver has to be covered by a car insurance of which fares are a very sensitive topics,
                     depending on age, experience and even gender. Bonuses are supposed to depend on established facts
                     enabling the computation of the likelihood of having a car accident. For instance, some insurances
-                    offer bonuses for female driver: to what extent can our data support this advantage ?
+                    offer bonuses for female driver: to what extent can our data support this advantage?
                     <br>
                     From 2005 to 2015, data shows that female drivers almost have half as much car accident than male
                     drivers, justifying a bonuses for car insurance companies. Yet, we can not conclude that it is safer
                     to drive for women, because the difference in the number of accident could be explained by a
-                    difference in the number of driver: are men driving twice as much as women ?
+                    difference in the number of driver: yet, are men driving twice as much as women?
                 </p>
             </div>
             <div class="col-lg-5 mx-auto">
                 <img width="100%" src="./img/drivers_gender.jpg" alt="">
             </div>
-            <div class="col-lg-10 mx-auto">
+            <div class="col-lg-10 mt-5 mx-auto">
                 <p class="lead">
-                    Is there any other features which could be taken into account to propose bonuses to client ? We
+                    Is there any other features which could be taken into account to propose bonuses to client? We
                     investigated the other features provided in the dataset and came to the following conclusions:
                 </p>
                 <ul class="lead">
@@ -304,7 +304,7 @@
                         categories.
                         However insurance companies own data about the proportion of young adult driving and can,
                         therefore,
-                        draw a more relevant conclusion. Once again, we lack data to properly <b>normalize</b> our
+                        draw a more relevant conclusion. We lack data to properly normalize our
                         dataset.
                     </li>
                     <li>The same approach can be used for elderly which are even less accident-prone than young
@@ -347,10 +347,10 @@
 <section class="content-section">
     <div class="container text-justify">
         <div class="row">
-            <div class="col-lg-10">
+            <div class="col-lg-10 mx-auto">
                 <h2>Conclusion</h2>
                 <p class="lead">
-                    The goal of this study is to aggregate and understand data on road accidents in the leading country
+                    The goal of this study was to aggregate and understand data on road accidents in the leading country
                     for road safety in Europe: the United Kingdom. By feeding our datasets into the Big Data blackbox,
                     we gained insights and highlighted trends with some surprises.
                     <br>
