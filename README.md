@@ -26,12 +26,15 @@ For each year, the entries are divided in three datasets, one for the accident, 
 
 # Things to grade:
 Jupyter notebook: milestone2.ipynb
+
 Data story: https://eagleseb.github.io/survive-your-commuting/index.html?fbclid=IwAR3eePL_3X25MD0bK2oamQwPSLKYLrW4Ld6qZG97YtVIAwwBPUV6lHjqqKA
 
 # Work repartition:
 
 Marion: first visualisation of features, insurance criteria & rush hours
+
 Sebastien: data story template, map visualisation, weather impact, prediction model
+
 Maxime: map visualisation, casualties likelihood
 
 On the whole, we have all worked together on almost everything.
