@@ -26,6 +26,8 @@ For each year, the entries are divided in three datasets, one for the accident, 
 
 # Work repartition:
 
+Marion: first visualisation of features, insurance criteria & rush hours
+
 _______________________________________________________
 _______________________________________________________
 # Archives of milestones 1 and 2:
