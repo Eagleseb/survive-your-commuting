@@ -27,6 +27,10 @@ For each year, the entries are divided in three datasets, one for the accident, 
 # Work repartition:
 
 Marion: first visualisation of features, insurance criteria & rush hours
+Sebastien: data story template, map visualisation, weather impact, prediction model
+Maxime: map visualisation, casualties likelihood
+
+On the whole, we have all worked together on almost everything.
 
 _______________________________________________________
 _______________________________________________________
