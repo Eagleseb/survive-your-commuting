@@ -24,6 +24,10 @@ We found three datasets consistent with our goal, and we decided to use the one 
 
 For each year, the entries are divided in three datasets, one for the accident, one for the casualties and a last one for the vehicles manufacturer and model. Those three datasets are linked by an Accident_index. For instance, the 2014 UK casualties dataset contains the following entries: Accident_Index, Location_Easting_OSGR, Location_Northing_OSGR, Longitude, Latitude, Police_Force, Accident_Severity, Number_of_Vehicles, Number_of_Casualties, Date, Day_of_Week,Time, Local_Authority_(District) Local_Authority_(Highway), 1st_Road_Class, 1st_Road_Number, Road_Type, Speed_limit, Junction_Detail, Junction_Control, 2nd_Road_Class, 2nd_Road_Number, Pedestrian_Crossing-Human_Control, Pedestrian_Crossing-Physical_Facilities, Light_Conditions, Weather_Conditions, Road_Surface_Conditions, Special_Conditions_at_Site, Carriageway_Hazards, Urban_or_Rural_Area, Did_Police_Officer_Attend_Scene_of_Accident, LSOA_of_Accident_Location. Most columns are categorical and all the data variables are coded rather than containing textual strings and a "lookup table" is provided. Thus, making the data science work much easier.
 
+# Things to grade:
+Jupyter notebook: milestone2.ipynb
+Data story: https://eagleseb.github.io/survive-your-commuting/index.html?fbclid=IwAR3eePL_3X25MD0bK2oamQwPSLKYLrW4Ld6qZG97YtVIAwwBPUV6lHjqqKA
+
 # Work repartition:
 
 Marion: first visualisation of features, insurance criteria & rush hours
